@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DataDrivenTesting by groups]">
+  <test name="GRP-datadriven(failed)">
+    <groups>
+      <run>
+        <include name="datadriven"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="purple">
+        <methods>
+          <include name="objectcreate"/>
+        </methods>
+      </class> <!-- purple -->
+    </classes>
+  </test> <!-- GRP-datadriven(failed) -->
+</suite> <!-- Failed suite [DataDrivenTesting by groups] -->

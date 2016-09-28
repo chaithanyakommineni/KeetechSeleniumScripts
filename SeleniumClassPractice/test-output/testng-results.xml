@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="158" started-at="2016-08-04T04:37:13Z" finished-at="2016-08-04T04:37:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="158" started-at="2016-08-04T04:37:13Z" finished-at="2016-08-04T04:37:14Z">
+      <class name="demoOne$demoTwo">
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:demoOne$demoTwo@4df50bcc]" name="firstTestCase" duration-ms="0" started-at="2016-08-04T10:07:13Z" finished-at="2016-08-04T10:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="secondTestCase()[pri:0, instance:demoOne$demoTwo@4df50bcc]" name="secondTestCase" duration-ms="0" started-at="2016-08-04T10:07:13Z" finished-at="2016-08-04T10:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+      </class> <!-- demoOne$demoTwo -->
+      <class name="demoOne$demoThree">
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:demoOne$demoThree@25d250c6]" name="firstTestCase" duration-ms="31" started-at="2016-08-04T10:07:13Z" finished-at="2016-08-04T10:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="secondTestCase()[pri:0, instance:demoOne$demoThree@25d250c6]" name="secondTestCase" duration-ms="0" started-at="2016-08-04T10:07:13Z" finished-at="2016-08-04T10:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+      </class> <!-- demoOne$demoThree -->
+      <class name="demoOne">
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:demoOne@56a6d5a6]" name="firstTestCase" duration-ms="15" started-at="2016-08-04T10:07:13Z" finished-at="2016-08-04T10:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="secondTestCase()[pri:0, instance:demoOne@56a6d5a6]" name="secondTestCase" duration-ms="16" started-at="2016-08-04T10:07:14Z" finished-at="2016-08-04T10:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+      </class> <!-- demoOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

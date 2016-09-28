@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31020" started-at="2016-08-27T04:45:45Z" finished-at="2016-08-27T04:46:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31020" started-at="2016-08-27T04:45:45Z" finished-at="2016-08-27T04:46:16Z">
+      <class name="Webdriver.FlipcartSignin">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Webdriver.FlipcartSignin@4590c9c3]" name="Setup" is-config="true" duration-ms="23627" started-at="2016-08-27T10:15:45Z" finished-at="2016-08-27T10:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Webdriver.FlipcartSignin@4590c9c3]" name="login" duration-ms="7323" started-at="2016-08-27T10:16:08Z" finished-at="2016-08-27T10:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Webdriver.FlipcartSignin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

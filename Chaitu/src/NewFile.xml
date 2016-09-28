@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="Gmail Selenium Tests suite" parallel="classes">
+
+<test name="smoke">
+<group>
+<run>
+<include name="smoke"></include>
+<include name="sanity"></include>
+</run>
+</group>
+<classes>
+<class name="GoogleMaps"></class>
+
+<class name="GoogleSearchTest"></class>
+<class name="More"></class>
+<class name="News"></class>
+<class name="Videos"></class>
+</classes>
+</test>
+<test name="regression">
+<group>
+<run>
+<include name="regression"></include>
+</run>
+</group>
+</test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]" parallel="tests">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="GoogleSearchTest">
+        
+      </class> <!-- GoogleSearchTest -->
+       
+        <class name="Videos"> 
+        </class>
+         <class name="News">
+         </class>
+         <class name="More">
+         </class>
+         <class name="GoogleImages">
+         </class>
+         <class name="GoogleMaps">
+       </class>
+       </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

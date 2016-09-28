@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [DataDrivenTesting by groups]]">
+  <test name="GRP-smoke,datadriven,sanity,uat(failed)(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="datadriven"/>
+        <include name="sanity"/>
+        <include name="uat"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestData">
+        <methods>
+          <include name="carears"/>
+          <include name="search"/>
+          <include name="connect"/>
+        </methods>
+      </class> <!-- TestData -->
+      <class name="purple">
+        <methods>
+          <include name="open"/>
+        </methods>
+      </class> <!-- purple -->
+    </classes>
+  </test> <!-- GRP-smoke,datadriven,sanity,uat(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [DataDrivenTesting by groups]] -->

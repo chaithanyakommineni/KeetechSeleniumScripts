@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Chaitu by groups]">
+  <test name="GRP-smoke(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="GoogleMaps">
+        <methods>
+          <include name="GoogleMaps"/>
+        </methods>
+      </class> <!-- GoogleMaps -->
+      <class name="News">
+        <methods>
+          <include name="news"/>
+        </methods>
+      </class> <!-- News -->
+    </classes>
+  </test> <!-- GRP-smoke(failed) -->
+</suite> <!-- Failed suite [Chaitu by groups] -->
